@@ -10,13 +10,6 @@ from my_functions import my_reduce
 my_list = [el for el in range(100, 1001, 2)]
 
 
-def my_reduce(func, param):
-    result = param[0]
-    for el in param[1:]:
-        result = func(result, el)
-    return result
-
-
 def my_func(pre_el, el):
     return pre_el * el
 

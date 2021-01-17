@@ -6,7 +6,7 @@
 """
 
 
-class ComplexNumbers():
+class ComplexNumbers:
 
     def __init__(self, param):
         self.complex = complex(param)
